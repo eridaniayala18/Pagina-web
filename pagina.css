@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand img {
+    max-height: 30px;
+}
+
+h1 {
+    color: #4d148c;
+    font-weight: bold;
+}
+
+.fedex-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(77, 20, 140, 0.1);
+}
+
+.fedex-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(77, 20, 140, 0.2);
+}
+
+.card-title {
+    color: #4d148c;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.btn-primary:hover {
+    background-color: #e55c00;
+    border-color: #e55c00;
+}
